@@ -1,0 +1,16 @@
+#gallery {
+    height: 500px;
+    width: 800px;
+}
+
+#gallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    display: none;
+}
+
+#gallery .active {
+    display: block;
+}
